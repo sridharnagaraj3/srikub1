@@ -5,9 +5,9 @@ metadata:
 spec:
   containers:
   - name: sri-nodejsdemo
-    image: sridharnagaraj3/sri-nodejsdemo
+    image: nginx
     ports:
-    - name: nodejs-port
+    - name: nginx-port
       containerPort: 3000
   - name: sri-watcherdemo
     image: afakharany/watcher:latest
