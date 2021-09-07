@@ -5,8 +5,8 @@ metadata:
 spec:
   ports:
   - port: 31001
-  targetPort: nodejs-port
-  protocol: TCP
-selector:
-  app: helloworld
-  type: LoadBalancer
+    targetPort: nodejs-port
+    protocol: TCP
+  selector:
+    app: helloworld
+    type: LoadBalancer
