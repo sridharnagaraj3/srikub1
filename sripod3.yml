@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: sripod3
-  spec:
+spec:
   containers:
   - name: sri-nodejsdemo
     image: sridharnagaraj3/sri-nodejsdemo
