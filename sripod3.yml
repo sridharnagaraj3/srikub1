@@ -6,8 +6,9 @@ metadata:
   containers:
   - name: sri-nodejsdemo
     image: sridharnagaraj3/sri-nodejsdemo
-    image: sridharnagaraj3/sri-watcherdemo
     ports:
     - name: nodejs-port
       containerPort: 3000
-    - name: afakharany/watcher:latest
+  - name: sri-watcherdemo
+    image: afakharany/watcher:latest
+   
